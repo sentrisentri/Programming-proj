@@ -16,11 +16,7 @@ def create_contact(fname, lname, phone, email):
 def get_full_name(contact):
     return contact["First Name"] + " " + contact["Last Name"]
 
-def display_contact(contact):
- return  
-  
-def input_contact():
-    return
+
 
 
 

@@ -1,1 +1,14 @@
-{"First Name": "k", "Last Name": "f", "Phone Number": "d", "Email": "a"}{"First Name": "d", "Last Name": "df", "Phone Number": "f", "Email": "f"}{"First Name": "d", "Last Name": "ad", "Phone Number": "d", "Email": "f"}{"First Name": "d", "Last Name": "d", "Phone Number": "d", "Email": "d"}
+[
+    [
+        "Shay",
+        "Blackwell",
+        "2103823209213",
+        "shay.blackwell@gmail.com"
+    ],
+    [
+        "Finlay",
+        "Bell-O'Connor",
+        "0788123802173",
+        "fin"
+    ]
+]

@@ -2,9 +2,9 @@
 # Responsible for displaying and implementing the menu options
 
 from contact_manager import get_contacts, add_contact, search_contact, delete_contact
+import json
 
-from contact import display_contact, input_contact
-
+# Function to display the main menu
 def display_menu():
     print("1. Display Contacts")
     print("2. Add Contact")
@@ -12,25 +12,24 @@ def display_menu():
     print("4. Delete Contact")
     print("5. Quit")
 
+# Option 1: Display all contacts
 def option_1():
-    # display_contacts():
-    print("Displaying Contacts...")
+    get_contacts()
 
+# Option 2: Add a new contact
 def option_2():
-    # add_contact():
     fname = input("Enter First Name: ")
     lname = input("Enter Last Name: ")
     phone = input("Enter Phone Number: ")
     email = input("Enter Email: ")
-    contact = [fname, lname, phone, email]
-    add_contact(contact)
-    
+    contact = [fname, lname, phone, email]  # Create a contact list
+    add_contact(contact)  # Add the contact to the contact list
 
+# Option 3: Search for a contact by first name
 def option_3():
-    # search_contact():
-    print("Search Contact")
+    name = input("Type the first name you want to search: ")
+    search_contact(name)
 
+# Option 4: Delete a contact
 def option_4():
-    # delete_contact():
-    print("Delete Contact")
-    
+    delete_contact()
